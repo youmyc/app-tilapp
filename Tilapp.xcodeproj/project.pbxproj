@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0472947F221E2E9A00DB3F3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0472947E221E2E9A00DB3F3B /* AppDelegate.swift */; };
+		04729481221E2E9A00DB3F3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04729480221E2E9A00DB3F3B /* ViewController.swift */; };
+		04729484221E2E9A00DB3F3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04729482221E2E9A00DB3F3B /* Main.storyboard */; };
+		04729486221E2E9C00DB3F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04729485221E2E9C00DB3F3B /* Assets.xcassets */; };
+		04729489221E2E9C00DB3F3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04729487221E2E9C00DB3F3B /* LaunchScreen.storyboard */; };
+		04729494221E2E9D00DB3F3B /* TilappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04729493221E2E9D00DB3F3B /* TilappTests.swift */; };
+		0472949F221E2E9D00DB3F3B /* TilappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0472949E221E2E9D00DB3F3B /* TilappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04729490221E2E9C00DB3F3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04729473221E2E9A00DB3F3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0472947A221E2E9A00DB3F3B;
+			remoteInfo = Tilapp;
+		};
+		0472949B221E2E9D00DB3F3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04729473221E2E9A00DB3F3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0472947A221E2E9A00DB3F3B;
+			remoteInfo = Tilapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0472947B221E2E9A00DB3F3B /* Tilapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tilapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0472947E221E2E9A00DB3F3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04729480221E2E9A00DB3F3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04729483221E2E9A00DB3F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04729485221E2E9C00DB3F3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04729488221E2E9C00DB3F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0472948A221E2E9C00DB3F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0472948F221E2E9C00DB3F3B /* TilappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TilappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04729493221E2E9D00DB3F3B /* TilappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilappTests.swift; sourceTree = "<group>"; };
+		04729495221E2E9D00DB3F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0472949A221E2E9D00DB3F3B /* TilappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TilappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0472949E221E2E9D00DB3F3B /* TilappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilappUITests.swift; sourceTree = "<group>"; };
+		047294A0221E2E9D00DB3F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04729478221E2E9A00DB3F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0472948C221E2E9C00DB3F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04729497221E2E9D00DB3F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04729472221E2E9A00DB3F3B = {
+			isa = PBXGroup;
+			children = (
+				0472947D221E2E9A00DB3F3B /* Tilapp */,
+				04729492221E2E9D00DB3F3B /* TilappTests */,
+				0472949D221E2E9D00DB3F3B /* TilappUITests */,
+				0472947C221E2E9A00DB3F3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0472947C221E2E9A00DB3F3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0472947B221E2E9A00DB3F3B /* Tilapp.app */,
+				0472948F221E2E9C00DB3F3B /* TilappTests.xctest */,
+				0472949A221E2E9D00DB3F3B /* TilappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0472947D221E2E9A00DB3F3B /* Tilapp */ = {
+			isa = PBXGroup;
+			children = (
+				0472947E221E2E9A00DB3F3B /* AppDelegate.swift */,
+				04729480221E2E9A00DB3F3B /* ViewController.swift */,
+				04729482221E2E9A00DB3F3B /* Main.storyboard */,
+				04729485221E2E9C00DB3F3B /* Assets.xcassets */,
+				04729487221E2E9C00DB3F3B /* LaunchScreen.storyboard */,
+				0472948A221E2E9C00DB3F3B /* Info.plist */,
+			);
+			path = Tilapp;
+			sourceTree = "<group>";
+		};
+		04729492221E2E9D00DB3F3B /* TilappTests */ = {
+			isa = PBXGroup;
+			children = (
+				04729493221E2E9D00DB3F3B /* TilappTests.swift */,
+				04729495221E2E9D00DB3F3B /* Info.plist */,
+			);
+			path = TilappTests;
+			sourceTree = "<group>";
+		};
+		0472949D221E2E9D00DB3F3B /* TilappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0472949E221E2E9D00DB3F3B /* TilappUITests.swift */,
+				047294A0221E2E9D00DB3F3B /* Info.plist */,
+			);
+			path = TilappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0472947A221E2E9A00DB3F3B /* Tilapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047294A3221E2E9D00DB3F3B /* Build configuration list for PBXNativeTarget "Tilapp" */;
+			buildPhases = (
+				04729477221E2E9A00DB3F3B /* Sources */,
+				04729478221E2E9A00DB3F3B /* Frameworks */,
+				04729479221E2E9A00DB3F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tilapp;
+			productName = Tilapp;
+			productReference = 0472947B221E2E9A00DB3F3B /* Tilapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0472948E221E2E9C00DB3F3B /* TilappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047294A6221E2E9D00DB3F3B /* Build configuration list for PBXNativeTarget "TilappTests" */;
+			buildPhases = (
+				0472948B221E2E9C00DB3F3B /* Sources */,
+				0472948C221E2E9C00DB3F3B /* Frameworks */,
+				0472948D221E2E9C00DB3F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04729491221E2E9C00DB3F3B /* PBXTargetDependency */,
+			);
+			name = TilappTests;
+			productName = TilappTests;
+			productReference = 0472948F221E2E9C00DB3F3B /* TilappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04729499221E2E9D00DB3F3B /* TilappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047294A9221E2E9D00DB3F3B /* Build configuration list for PBXNativeTarget "TilappUITests" */;
+			buildPhases = (
+				04729496221E2E9D00DB3F3B /* Sources */,
+				04729497221E2E9D00DB3F3B /* Frameworks */,
+				04729498221E2E9D00DB3F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0472949C221E2E9D00DB3F3B /* PBXTargetDependency */,
+			);
+			name = TilappUITests;
+			productName = TilappUITests;
+			productReference = 0472949A221E2E9D00DB3F3B /* TilappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04729473221E2E9A00DB3F3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = youmy;
+				TargetAttributes = {
+					0472947A221E2E9A00DB3F3B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0472948E221E2E9C00DB3F3B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0472947A221E2E9A00DB3F3B;
+					};
+					04729499221E2E9D00DB3F3B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0472947A221E2E9A00DB3F3B;
+					};
+				};
+			};
+			buildConfigurationList = 04729476221E2E9A00DB3F3B /* Build configuration list for PBXProject "Tilapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04729472221E2E9A00DB3F3B;
+			productRefGroup = 0472947C221E2E9A00DB3F3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0472947A221E2E9A00DB3F3B /* Tilapp */,
+				0472948E221E2E9C00DB3F3B /* TilappTests */,
+				04729499221E2E9D00DB3F3B /* TilappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04729479221E2E9A00DB3F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04729489221E2E9C00DB3F3B /* LaunchScreen.storyboard in Resources */,
+				04729486221E2E9C00DB3F3B /* Assets.xcassets in Resources */,
+				04729484221E2E9A00DB3F3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0472948D221E2E9C00DB3F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04729498221E2E9D00DB3F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04729477221E2E9A00DB3F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04729481221E2E9A00DB3F3B /* ViewController.swift in Sources */,
+				0472947F221E2E9A00DB3F3B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0472948B221E2E9C00DB3F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04729494221E2E9D00DB3F3B /* TilappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04729496221E2E9D00DB3F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0472949F221E2E9D00DB3F3B /* TilappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04729491221E2E9C00DB3F3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0472947A221E2E9A00DB3F3B /* Tilapp */;
+			targetProxy = 04729490221E2E9C00DB3F3B /* PBXContainerItemProxy */;
+		};
+		0472949C221E2E9D00DB3F3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0472947A221E2E9A00DB3F3B /* Tilapp */;
+			targetProxy = 0472949B221E2E9D00DB3F3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04729482221E2E9A00DB3F3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04729483221E2E9A00DB3F3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04729487221E2E9C00DB3F3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04729488221E2E9C00DB3F3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047294A1221E2E9D00DB3F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		047294A2221E2E9D00DB3F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047294A4221E2E9D00DB3F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tilapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmy.Tilapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		047294A5221E2E9D00DB3F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tilapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmy.Tilapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		047294A7221E2E9D00DB3F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TilappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmy.TilappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tilapp.app/Tilapp";
+			};
+			name = Debug;
+		};
+		047294A8221E2E9D00DB3F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TilappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmy.TilappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tilapp.app/Tilapp";
+			};
+			name = Release;
+		};
+		047294AA221E2E9D00DB3F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TilappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmy.TilappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tilapp;
+			};
+			name = Debug;
+		};
+		047294AB221E2E9D00DB3F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TilappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmy.TilappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tilapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04729476221E2E9A00DB3F3B /* Build configuration list for PBXProject "Tilapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047294A1221E2E9D00DB3F3B /* Debug */,
+				047294A2221E2E9D00DB3F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047294A3221E2E9D00DB3F3B /* Build configuration list for PBXNativeTarget "Tilapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047294A4221E2E9D00DB3F3B /* Debug */,
+				047294A5221E2E9D00DB3F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047294A6221E2E9D00DB3F3B /* Build configuration list for PBXNativeTarget "TilappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047294A7221E2E9D00DB3F3B /* Debug */,
+				047294A8221E2E9D00DB3F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047294A9221E2E9D00DB3F3B /* Build configuration list for PBXNativeTarget "TilappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047294AA221E2E9D00DB3F3B /* Debug */,
+				047294AB221E2E9D00DB3F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04729473221E2E9A00DB3F3B /* Project object */;
+}
