@@ -14,6 +14,17 @@
 		04729489221E2E9C00DB3F3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04729487221E2E9C00DB3F3B /* LaunchScreen.storyboard */; };
 		04729494221E2E9D00DB3F3B /* TilappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04729493221E2E9D00DB3F3B /* TilappTests.swift */; };
 		0472949F221E2E9D00DB3F3B /* TilappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0472949E221E2E9D00DB3F3B /* TilappUITests.swift */; };
+		047294AE221E333400DB3F3B /* ResourceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047294AD221E333400DB3F3B /* ResourceRequest.swift */; };
+		047294B1221E339600DB3F3B /* Acronym.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047294B0221E339600DB3F3B /* Acronym.swift */; };
+		047294B4221E33DF00DB3F3B /* AcronymsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047294B3221E33DF00DB3F3B /* AcronymsTableVC.swift */; };
+		047294B6221E33F300DB3F3B /* UsersTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047294B5221E33F300DB3F3B /* UsersTableVC.swift */; };
+		047294B8221E340A00DB3F3B /* CategoriesTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047294B7221E340A00DB3F3B /* CategoriesTableVC.swift */; };
+		047294BA221E7D4600DB3F3B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047294B9221E7D4600DB3F3B /* User.swift */; };
+		047294BC221E7EF300DB3F3B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047294BB221E7EF300DB3F3B /* Category.swift */; };
+		047294BE221E844600DB3F3B /* CreateUserTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047294BD221E844600DB3F3B /* CreateUserTableVC.swift */; };
+		047294C0221E888000DB3F3B /* ErrorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047294BF221E888000DB3F3B /* ErrorPresenter.swift */; };
+		047294C2221E9D5F00DB3F3B /* CreateAcronymTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047294C1221E9D5F00DB3F3B /* CreateAcronymTableVC.swift */; };
+		047294D8221EBC6700DB3F3B /* SelectUserTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047294D7221EBC6700DB3F3B /* SelectUserTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		0472949A221E2E9D00DB3F3B /* TilappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TilappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0472949E221E2E9D00DB3F3B /* TilappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilappUITests.swift; sourceTree = "<group>"; };
 		047294A0221E2E9D00DB3F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047294AD221E333400DB3F3B /* ResourceRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceRequest.swift; sourceTree = "<group>"; };
+		047294B0221E339600DB3F3B /* Acronym.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acronym.swift; sourceTree = "<group>"; };
+		047294B3221E33DF00DB3F3B /* AcronymsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcronymsTableVC.swift; sourceTree = "<group>"; };
+		047294B5221E33F300DB3F3B /* UsersTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableVC.swift; sourceTree = "<group>"; };
+		047294B7221E340A00DB3F3B /* CategoriesTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableVC.swift; sourceTree = "<group>"; };
+		047294B9221E7D4600DB3F3B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		047294BB221E7EF300DB3F3B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		047294BD221E844600DB3F3B /* CreateUserTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserTableVC.swift; sourceTree = "<group>"; };
+		047294BF221E888000DB3F3B /* ErrorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPresenter.swift; sourceTree = "<group>"; };
+		047294C1221E9D5F00DB3F3B /* CreateAcronymTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAcronymTableVC.swift; sourceTree = "<group>"; };
+		047294D7221EBC6700DB3F3B /* SelectUserTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUserTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +119,9 @@
 		0472947D221E2E9A00DB3F3B /* Tilapp */ = {
 			isa = PBXGroup;
 			children = (
+				047294B2221E33B800DB3F3B /* ViewControllers */,
+				047294AF221E338000DB3F3B /* Model */,
+				047294AC221E32E200DB3F3B /* Utilities */,
 				0472947E221E2E9A00DB3F3B /* AppDelegate.swift */,
 				04729480221E2E9A00DB3F3B /* ViewController.swift */,
 				04729482221E2E9A00DB3F3B /* Main.storyboard */,
@@ -123,6 +148,38 @@
 				047294A0221E2E9D00DB3F3B /* Info.plist */,
 			);
 			path = TilappUITests;
+			sourceTree = "<group>";
+		};
+		047294AC221E32E200DB3F3B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				047294AD221E333400DB3F3B /* ResourceRequest.swift */,
+				047294BF221E888000DB3F3B /* ErrorPresenter.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		047294AF221E338000DB3F3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				047294B0221E339600DB3F3B /* Acronym.swift */,
+				047294B9221E7D4600DB3F3B /* User.swift */,
+				047294BB221E7EF300DB3F3B /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		047294B2221E33B800DB3F3B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				047294B3221E33DF00DB3F3B /* AcronymsTableVC.swift */,
+				047294B5221E33F300DB3F3B /* UsersTableVC.swift */,
+				047294B7221E340A00DB3F3B /* CategoriesTableVC.swift */,
+				047294BD221E844600DB3F3B /* CreateUserTableVC.swift */,
+				047294C1221E9D5F00DB3F3B /* CreateAcronymTableVC.swift */,
+				047294D7221EBC6700DB3F3B /* SelectUserTableVC.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +313,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047294B6221E33F300DB3F3B /* UsersTableVC.swift in Sources */,
+				047294B8221E340A00DB3F3B /* CategoriesTableVC.swift in Sources */,
+				047294B4221E33DF00DB3F3B /* AcronymsTableVC.swift in Sources */,
+				047294C2221E9D5F00DB3F3B /* CreateAcronymTableVC.swift in Sources */,
 				04729481221E2E9A00DB3F3B /* ViewController.swift in Sources */,
+				047294BE221E844600DB3F3B /* CreateUserTableVC.swift in Sources */,
+				047294D8221EBC6700DB3F3B /* SelectUserTableVC.swift in Sources */,
+				047294BA221E7D4600DB3F3B /* User.swift in Sources */,
+				047294C0221E888000DB3F3B /* ErrorPresenter.swift in Sources */,
+				047294BC221E7EF300DB3F3B /* Category.swift in Sources */,
+				047294B1221E339600DB3F3B /* Acronym.swift in Sources */,
+				047294AE221E333400DB3F3B /* ResourceRequest.swift in Sources */,
 				0472947F221E2E9A00DB3F3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,7 +501,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RAQYULZ5E;
 				INFOPLIST_FILE = Tilapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,7 +511,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.youmy.Tilapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,7 +520,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RAQYULZ5E;
 				INFOPLIST_FILE = Tilapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,7 +530,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.youmy.Tilapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
